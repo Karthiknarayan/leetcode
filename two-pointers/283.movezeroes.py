@@ -25,9 +25,9 @@
 # Input: nums = [0]
 # Output: [0]
 
-nums = [0,1,0,3,12]
+nums = [1,0,3,0,1,0,3,12]
 
-i,j=0,0
+i,j=0,1
 
 for j in range(len(nums)):
     if nums[j]!=0:
