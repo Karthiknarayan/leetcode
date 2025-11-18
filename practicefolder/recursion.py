@@ -3,10 +3,10 @@
 class Recursion:
     def f_of_n(i,n):
         # base case
-        if i>n:
+        if i<1:
             return
         
         print(i)
-        Recursion.f_of_n(i+1,n)
+        Recursion.f_of_n(i-1,n)
 
-Recursion.f_of_n(1,100)
+Recursion.f_of_n(100,1)
