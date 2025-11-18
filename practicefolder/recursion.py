@@ -4,6 +4,7 @@ class Recursion:
 
     def recurfunction(self, val):
         print(val)
+        # here it is necessary to keep as less number as possible like <999
         if (val<100):
             self.recurfunction(val+1)
         else:
